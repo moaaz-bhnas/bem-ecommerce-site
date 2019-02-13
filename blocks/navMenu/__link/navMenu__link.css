@@ -1,0 +1,23 @@
+.navMenu__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  padding: .75rem;
+  color: inherit;
+  border-bottom: 1px solid rgba(34, 34, 34, .5);
+  transition: border-bottom-color .2s;
+}
+
+.navMenu__link:hover {
+  border-bottom-color: #222;
+}
+
+@media (min-width: 563px) {
+  .navMenu__link {
+    border-bottom: none;
+  }
+  .navMenu__link:hover {
+    text-decoration: underline;
+  }
+}

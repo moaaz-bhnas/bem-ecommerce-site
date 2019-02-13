@@ -1,0 +1,14 @@
+.navMenu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+@media (min-width: 563px) {
+  .navMenu {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}

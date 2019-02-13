@@ -1,0 +1,5 @@
+@media (min-width: 563px) {
+  .navMenu__item {
+    display: inline-block;
+  }
+}

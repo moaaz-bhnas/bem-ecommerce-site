@@ -1,0 +1,11 @@
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 563px) {
+  .header {
+    padding-top: 3.8125rem;
+  }
+}
